@@ -14,10 +14,12 @@ a {
     color: inherit;
 }
 
+
 /* HEADER */
 
 header {
     font-family: Helvetica, arial, sans-serif;
+    background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
@@ -27,6 +29,7 @@ header {
 .top-header {
     background-color: black;
     text-align: right;
+    height: 35px;
     padding: 0.3rem;
 }
 
@@ -38,8 +41,6 @@ header {
     height: 80px;
     color: black;
     margin: 0 0.5rem;
-    
-    
 }
 
 nav {
@@ -56,12 +57,12 @@ nav {
 }
 
 .left-menu a, .right-menu a {
-    font-size: 17px;
+    font-size: 1rem;
     
 }
 
 .left-menu i, .right-menu i {
-    font-size: 12px;
+    font-size: 0.8rem;
     color: grey;
     margin: 0 0.2rem;
 }
@@ -70,8 +71,8 @@ nav {
     color: white;
     background-color: #363636;
     border-color: #363636;
-    border-radius: 20px;
-
+    border-radius: 25px;
+    padding: 0.7rem;
 }
 
 .lens {
@@ -82,4 +83,63 @@ nav {
     text-align: right;
     font-size: 20px;
     margin: 0 1rem;
+}
+
+/* MAIN */
+
+/* Jumbotron */
+
+.ms_jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-top: 115px;
+}
+
+.jumbo-content {
+    text-align: left;
+    height: 100%;
+    color: white;
+    padding: 2rem 0;
+}
+
+.ms_jumbo img {
+    width: 100%;
+    display: block;
+}
+
+.jumbo-content h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.jumbo_img {
+    max-width: 350px;
+}
+
+.btn-red {
+    background-color: red;
+    border-color: red;
+    margin: 1rem 0;
+}
+
+/* jumbogrid */
+
+.jumbo-grid {
+    margin: 2rem 0;
+}
+
+.ms_cardimage {
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.col:first-child .ms_cardimage {
+    border: 2px solid #0072ce;
+}
+
+.ms_cardimage img {
+    border-radius: 25px;
 }
