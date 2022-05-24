@@ -14,7 +14,9 @@ a {
     color: inherit;
 }
 
-
+section {
+    margin: 3rem 0;
+}
 
 
 /* HEADER */
@@ -26,6 +28,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 
 .top-header {
@@ -112,11 +115,6 @@ section.ms_jumbo {
     padding: 2rem 0;
 }
 
-/* .ms_jumbo img {
-    width: 100%;
-    display: block;
-} */
-
 .jumbo-content h1 {
     font-size: 3rem;
     margin: 2rem 0;
@@ -154,7 +152,7 @@ section.ms_jumbo {
 /* First Info*/
 
 .ms_first-intro {
-    padding: 5rem 0;
+    padding-top: 3rem;
 }
 
 .ms_first-intro span {
@@ -177,15 +175,45 @@ section.ms_jumbo {
     height: 100%;
 }
 
-.related-prodcuts {
-    margin-top: 2rem;
-}
+
 
 .ms_other-products {
     filter: opacity(50%);
+    padding: 1rem;
 }
 
 .col:first-child .ms_other-products {
     filter: opacity(100%);
     border-bottom: 2px solid #0072ce;
+}
+
+/* Game Banner */
+
+.game-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gamebanner-content {
+    text-align: left;
+    height: 100%;
+    color: white;
+    padding: 2rem 0;
+}
+
+.gamebanner-content h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.banner_img {
+    max-width: 350px;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    margin: 1rem 0;
 }
