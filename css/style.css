@@ -18,6 +18,14 @@ section {
     margin: 3rem 0;
 }
 
+/* BUTTONS */
+
+.btn-info {
+    color: white;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+    border-radius: 20px;
+}
 
 /* HEADER */
 
@@ -270,6 +278,12 @@ section.game-banner {
     padding-bottom: 20px;
 }
 
+.plus-info .btn-info {
+    color: #0072ce;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+
 /* Discount */
 
 .discount-section-head {
@@ -289,6 +303,12 @@ section.game-banner {
 
 .now-info p {
     color: white;
+}
+
+.now-info .btn-info {
+    color: black;
+    background-color: white;
+    border-color: white;
 }
 
 /* Socials */
