@@ -330,3 +330,39 @@ section.game-banner {
 .socials-img img {
     width: 80%;
 }
+
+/* FOOTER */
+
+footer {
+    
+    padding: 5rem 0;
+    background-color: #0072ce;
+
+}
+
+.footer-logo img {
+    padding-bottom: 2rem;
+}
+
+.lenguage img {
+    width: 25px;
+}
+
+.lenguage span {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.footer-menu {
+    margin: 2rem 0;
+    color: white;
+}
+
+.bottom-logo img{
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+
+.bottom-content p {
+    color: white;
+}
