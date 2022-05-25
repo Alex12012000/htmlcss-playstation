@@ -242,3 +242,14 @@ section.game-banner {
     font-size: 15px;
     padding-top: 10px;
 }
+
+/* Product Listing */
+
+.product-listing p {
+    font-weight: 600;
+    color: grey;
+}
+
+.games-section-head {
+    margin-bottom: 4rem;
+}
