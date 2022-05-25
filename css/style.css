@@ -290,3 +290,23 @@ section.game-banner {
 .now-info p {
     color: white;
 }
+
+/* Socials */
+
+.social-section-head {
+    padding-bottom: 3rem;
+}
+
+.ms_social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    max-width: 80%;
+}
+
+.socials-img img {
+    width: 80%;
+}
