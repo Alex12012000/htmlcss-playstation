@@ -269,3 +269,9 @@ section.game-banner {
     max-width: 70%;
     padding-bottom: 20px;
 }
+
+/* Discount */
+
+.discount-section-head {
+    padding-bottom: 2rem;
+}
