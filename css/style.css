@@ -313,6 +313,10 @@ section.game-banner {
 
 /* Socials */
 
+.social {
+    padding: 5rem 0;
+}
+
 .social-section-head {
     padding-bottom: 3rem;
 }
@@ -327,9 +331,6 @@ section.game-banner {
     max-width: 80%;
 }
 
-.socials-img img {
-    width: 80%;
-}
 
 /* FOOTER */
 
