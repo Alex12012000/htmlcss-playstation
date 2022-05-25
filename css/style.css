@@ -254,7 +254,7 @@ section.game-banner {
     margin-bottom: 4rem;
 }
 
-/* Playstation Plus Banner  */
+/* Playstation Plus Banner */
 
 .plus-banner {
     background-color: #bebcbb;
@@ -274,4 +274,19 @@ section.game-banner {
 
 .discount-section-head {
     padding-bottom: 2rem;
+}
+
+/* Playstation Now Banner */
+
+.now-banner {
+    background-color: #161c3b;
+}
+
+.now-card {
+    padding: 1rem;
+    height: 100%;
+}
+
+.now-info p {
+    color: white;
 }
