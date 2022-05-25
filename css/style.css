@@ -253,3 +253,19 @@ section.game-banner {
 .games-section-head {
     margin-bottom: 4rem;
 }
+
+/* Playstation Plus Banner  */
+
+.plus-banner {
+    background-color: #bebcbb;
+}
+
+.plan-card {
+    padding: 1rem;
+    height: 100%;
+}
+
+.upgrade-plan-logo {
+    max-width: 70%;
+    padding-bottom: 20px;
+}
