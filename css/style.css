@@ -28,10 +28,25 @@ section {
     padding: 0.7rem;
 }
 
+.login-btn:hover {
+    outline: 2px solid black;
+    outline-offset: 2px;
+    color:white;
+}
+
 .btn-red {
+    color: white;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
     margin: 1rem 0;
+    border-radius: 25px;
+    padding: 0.7rem;
+}
+
+.btn-red:hover {
+    box-shadow:0px 0px 0px 2px black inset;
+    color:white;
+
 }
 
 .btn-info {
@@ -39,6 +54,14 @@ section {
     background-color: #2d64e6;
     border-color: #2d64e6;
     border-radius: 20px;
+}
+
+.btn-info:hover {
+    outline: 2px solid #0072ce;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+    outline-offset: 2px;
+    color:white;
 }
 
 
@@ -150,8 +173,12 @@ section.ms_jumbo {
 }
 
 .ms_cardimage {
-    padding: 5px;
-    border-radius: 25px;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.ms_cardimage:hover {
+   transform: translateY(-25%);
 }
 
 .col:first-child .ms_cardimage {
@@ -159,7 +186,7 @@ section.ms_jumbo {
 }
 
 .ms_cardimage img {
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 /* First Info*/
@@ -189,8 +216,18 @@ section.ms_jumbo {
 }
 
 .ms_other-products {
+    height: 100%;
     filter: opacity(50%);
-    padding: 1rem;
+    padding: 1.2rem;
+}
+
+.ms_other-products:hover{
+    border-bottom: 2px solid #0072ce;
+    filter: opacity(100%);
+}
+
+.product-name {
+    padding: 1.5rem 0;
 }
 
 .col:first-child .ms_other-products {
