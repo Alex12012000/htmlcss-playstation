@@ -20,11 +20,30 @@ section {
 
 /* BUTTONS */
 
+.login-btn {
+    color: white;
+    background-color: #363636;
+    border-color: #363636;
+    border-radius: 25px;
+    padding: 0.7rem;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    margin: 1rem 0;
+}
+
 .btn-info {
     color: white;
     background-color: #2d64e6;
     border-color: #2d64e6;
     border-radius: 20px;
+}
+
+
+.btn:focus {
+    box-shadow: none;
 }
 
 /* HEADER */
@@ -80,14 +99,6 @@ nav {
     margin: 0 0.2rem;
 }
 
-.login-btn {
-    color: white;
-    background-color: #363636;
-    border-color: #363636;
-    border-radius: 25px;
-    padding: 0.7rem;
-}
-
 .lens {
     width: 2rem;
 }
@@ -130,12 +141,6 @@ section.ms_jumbo {
 
 .jumbo_img {
     max-width: 350px;
-}
-
-.btn-red {
-    background-color: #cd3d0f;
-    border-color: #cd3d0f;
-    margin: 1rem 0;
 }
 
 /* jumbogrid */
